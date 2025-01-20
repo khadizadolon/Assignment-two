@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Quicksand", serif;
+}
+
+main{
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+}
+
+/* Navbar styles start here */
+
+.navbar{ 
+    max-width: 1160px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-heading{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-items{
+    display: flex;
+    gap: 32px;
+}
+
+.nav-item-1{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color:#FEA301 ;
+}
+.nav-item-2{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color:#01ACFD ;
+}
+.nav-item-3{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color:#05D4DF ;
+}
+.nav-item-4{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color:#5D58EF ;
+}
+
+.nav-btn{
+    padding: 10px 60px;
+    background-color: #FEA301;
+    border: none;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.menu-icon,.horizontal-line {
+    display: none;
+}
+
+
+/* Navbar style end here */
+
+/* Banner styles start here */
+
+.banner{
+    max-width: 1160px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.banner-description{
+    /* border: 2px solid red; */
+    width: 50%;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-bottom: 24px;
+}
+
+.banner-para{
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+}
+
+.banner-btn{
+    padding: 12px 48px;
+    color: white;
+    background-color: black;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+
+/* Banner styles end here */
+
+/* Standard Curriculum styles here */
+
+.standard{
+    max-width: 1160px;
+    margin: auto;
+    padding-top: 60px;
+   
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.stand-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.875rem;
+    margin-bottom: 80px;
+    
+}
+
+.card{
+   text-align: center;
+   padding: 52px 40px;
+   border-radius: 18px;
+}
+
+.card-1{
+    background-image: linear-gradient(to bottom,#def5ff8a,white);
+    border: 1px solid #DEF5FF;
+}
+.card-2{
+    background-image: linear-gradient(to bottom,#fff4dc7e,white);
+    border: 1px solid #FFF4DC;
+}
+.card-3{
+    background-image: linear-gradient(to bottom,#f2e8ff7e,white);
+    border: 1px solid #F2E8FF;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #202020;
+    margin-top: 32px;
+    margin-bottom: 34px;
+}
+
+.card-para{
+    margin-bottom: 34px;
+    color: #808080;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.card-btn-1{
+    border: none;
+    background-color: #fff;
+    color: #64C8FF;
+    font-weight: bold;
+}
+.card-btn-2{
+    border: none;
+    background-color: #fff;
+    color: #F0AA00;
+    font-weight: bold;
+}
+.card-btn-3{
+    border: none;
+    background-color: #fff;
+    color: #8700FF;
+    font-weight: bold;
+}
+
+/* Icon button style here */
+
+.icon-div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.icon-btn{
+    padding: 17px 22px;
+    border-radius: 100%;
+    border: none;
+    background-color: #FEA301;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+
+/* Responsive the website */
+
+@media screen and (max-width:576px) {
+    .nav-title, .nav-items,.nav-btn{
+        display: none;
+    }
+
+    .navbar{
+        margin: 20px;
+    }
+    .menu-icon{
+        display: block;
+        font-size: 2rem;
+    }
+
+    .horizontal-line{
+        display: block;
+        border: 1px solid #fea1016f;
+    }
+
+    /* Banner section */
+    .banner{
+        flex-direction: column-reverse;
+        gap: 20px;
+       
+    }
+
+    .banner-description{
+        width: 90%;
+        text-align: center;
+    }
+
+    .banner-title{
+        font-size: 2rem;
+        width: 85%;
+        margin: auto;
+        margin-bottom: 24px;
+
+    }
+
+    .banner-img{
+        width: 90%;
+        margin: 16px;
+        
+    }
+
+    .banner-btn{
+        padding: 10px 24px;
+        font-size: 1rem;
+        border-radius: 8px;
+        font-weight: 500;
+    }
+
+    /* Standard section */
+    .card-container{
+        display: block;
+        margin: 20px;
+    }
+
+    .card{
+        margin-bottom: 20px;
+    }
+
+    .stand-heading{
+        margin-bottom: 20px;
+        font-size: 1.625rem;
+    }
+
+    .icon-btn{
+        display: none;
+    }
+}
