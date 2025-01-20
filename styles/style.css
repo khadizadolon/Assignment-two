@@ -213,6 +213,69 @@ main{
     color: #FFFFFF;
 }
 
+/* footer section styles here */
+
+footer{
+    background-color: #01ACFD;
+    padding-top: 100px;
+    padding-bottom: 180px;
+}
+.foot{
+    max-width: 1160px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-div{
+    width: 35%;
+
+}
+
+.footer-left{
+    display: flex;
+    align-items: center;
+}
+
+.foot-img{
+    width: 82px;
+    height: 81px;
+}
+.foot-title{
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 2.2rem;
+}
+
+.foot-para{
+    /* width: 35%; */
+    margin-top: 35px;
+    font-size: 1.25rem;
+    color: #FFFFFF; 
+}
+
+.middle-title{
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+}
+
+.middle-item{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.right-title{
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.625rem;
+    margin-bottom: 32px;
+}
+
+
 /* Responsive the website */
 
 @media screen and (max-width:576px) {
@@ -283,5 +346,20 @@ main{
 
     .icon-btn{
         display: none;
+    }
+
+    /* footer section */
+    footer{
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+    .foot{
+        display: block;
+        padding-left: 20px;
+    }
+
+    .first-div{
+        width: 95%;
+        margin-bottom: 32px;
     }
 }
