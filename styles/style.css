@@ -213,6 +213,79 @@ main{
     color: #FFFFFF;
 }
 
+/* Our story section styles here */
+
+.stories{
+    border: 2px solid red;
+    padding-bottom: 190px;
+    background-image: linear-gradient(to top,#fea10146,white),url(../assets/bg.png);
+    background-repeat: no-repeat;
+}
+.story-heading{
+    font-size: 2.875rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+
+.story-container{
+    border: 2px solid red;
+    max-width: 1160px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.left-content{
+    position: relative;
+    background-color: #fff;
+    width: 46.7%;
+    border-radius: 12px;
+}
+
+.story-1-img{
+    width: 540px;
+    height: 337px;
+    border-top-left-radius: 12px ;
+    border-top-right-radius: 12px ;
+}
+
+.story-1-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 34px;
+    margin-top: 60px;
+}
+.story-1-para{
+    width: 90%;
+    color: #666666;
+    line-height: 28px;
+    margin-top: 48px;
+    margin-left: 34px;
+    margin-bottom: 38px;
+}
+
+.story-1-btn{
+    position: absolute;
+    padding: 14px 20px;
+    background-color: #3CD8E8;
+    border: none;
+    border-radius: 48px;
+    font-weight: 500;
+    color: #FFFFFF;
+    bottom: 272px;
+    left: 38px;
+}
+
+
+
+.right-content{
+    border: 2px solid green;
+}
+
 /* footer section styles here */
 
 footer{
