@@ -73,7 +73,7 @@ main{
 }
 
 .menu-icon{
-    display: none;
+    display: none !important;
 }
 
 .horizontal-line {
