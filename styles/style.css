@@ -216,8 +216,6 @@ main{
 /* Our story section styles here */
 
 .stories{
-    border: 2px solid red;
-    padding-bottom: 190px;
     background-image: linear-gradient(to top,#fea10146,white),url(../assets/bg.png);
     background-repeat: no-repeat;
 }
@@ -230,27 +228,26 @@ main{
 }
 
 .story-container{
-    border: 2px solid red;
     max-width: 1160px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
 }
 
 .left-content{
     position: relative;
     background-color: #fff;
     width: 46.7%;
-    border-radius: 12px;
+    border-radius: 16px;
 }
 
 .story-1-img{
     width: 540px;
     height: 337px;
-    border-top-left-radius: 12px ;
-    border-top-right-radius: 12px ;
+    border-top-left-radius: 16px ;
+    border-top-right-radius: 16px ;
 }
 
 .story-1-title{
@@ -283,7 +280,59 @@ main{
 
 
 .right-content{
-    border: 2px solid green;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 53.3%;
+}
+
+.story-2-img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.story-2-title{
+    margin-top: 25px;
+    margin-left: 38px;
+    margin-right: 35px;
+    margin-bottom: 28px;
+    font-weight: bold; 
+}
+
+
+.story-2-btn{
+    padding: 10px 20px;
+    background-color: #95B226;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 48px;
+    position: absolute;
+    bottom: 91px;
+    left: 38px;
+}
+
+.story-btn-2{
+    background-color: #5D58F0;
+}
+
+.story-btn-3{
+    bottom: 130px;
+}
+
+.view-btn-div{
+    display: flex;
+    justify-content: center;
+}
+.story-view-btn{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    padding: 10px 60px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
 /* footer section styles here */
