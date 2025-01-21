@@ -283,7 +283,7 @@ main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    width: 53.3%;
+    /* width: 53.3%; */
 }
 
 .story-2-img{
@@ -468,6 +468,20 @@ footer{
 
     .icon-btn{
         display: none;
+    }
+
+    /* our stories section */
+
+    .left-content{
+        display: none;
+    }
+
+    /* .right-content{
+        width: 100%;
+    } */
+
+    .story-2-title{
+        margin-left: 10px;
     }
 
     /* footer section */
