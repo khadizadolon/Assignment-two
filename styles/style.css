@@ -423,7 +423,7 @@ footer{
         margin: 20px;
     }
     .menu-icon{
-        display: block;
+        display: block !important;
         font-size: 2rem;
     }
 
