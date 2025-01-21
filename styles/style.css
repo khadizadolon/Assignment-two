@@ -72,10 +72,13 @@ main{
     font-size: 1.25rem;
 }
 
-.menu-icon,.horizontal-line {
+.menu-icon{
     display: none;
 }
 
+.horizontal-line {
+    display: none;
+}
 
 /* Navbar style end here */
 
