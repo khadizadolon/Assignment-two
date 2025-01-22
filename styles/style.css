@@ -163,15 +163,15 @@ marquee {
 }
 
 .card-1{
-    background-image: linear-gradient(to bottom,#def5ff8a,white);
+    background-image: linear-gradient(to bottom,#def5ff,white 40%);
     border: 1px solid #DEF5FF;
 }
 .card-2{
-    background-image: linear-gradient(to bottom,#fff4dc7e,white);
+    background-image: linear-gradient(to bottom,#fff4dc,white 40%);
     border: 1px solid #FFF4DC;
 }
 .card-3{
-    background-image: linear-gradient(to bottom,#f2e8ff7e,white);
+    background-image: linear-gradient(to bottom,#f2e8ff,white 40%);
     border: 1px solid #F2E8FF;
 }
 
